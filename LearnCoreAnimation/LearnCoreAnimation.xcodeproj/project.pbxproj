@@ -15,6 +15,7 @@
 		8147E42621E90AAE00A7FF82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8147E42521E90AAE00A7FF82 /* main.m */; };
 		8147E43021E90AAF00A7FF82 /* LearnCoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8147E42F21E90AAF00A7FF82 /* LearnCoreAnimationTests.m */; };
 		8147E43B21E90AAF00A7FF82 /* LearnCoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8147E43A21E90AAF00A7FF82 /* LearnCoreAnimationUITests.m */; };
+		8147E44A21E9180400A7FF82 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8147E44921E9180400A7FF82 /* ClockViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8147E43621E90AAF00A7FF82 /* LearnCoreAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnCoreAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8147E43A21E90AAF00A7FF82 /* LearnCoreAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnCoreAnimationUITests.m; sourceTree = "<group>"; };
 		8147E43C21E90AAF00A7FF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8147E44821E9180400A7FF82 /* ClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		8147E44921E9180400A7FF82 /* ClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				8147E42121E90AAE00A7FF82 /* LaunchScreen.storyboard */,
 				8147E42421E90AAE00A7FF82 /* Info.plist */,
 				8147E42521E90AAE00A7FF82 /* main.m */,
+				8147E44821E9180400A7FF82 /* ClockViewController.h */,
+				8147E44921E9180400A7FF82 /* ClockViewController.m */,
 			);
 			path = LearnCoreAnimation;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				8147E41B21E90AAE00A7FF82 /* ViewController.m in Sources */,
 				8147E42621E90AAE00A7FF82 /* main.m in Sources */,
 				8147E41821E90AAE00A7FF82 /* AppDelegate.m in Sources */,
+				8147E44A21E9180400A7FF82 /* ClockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

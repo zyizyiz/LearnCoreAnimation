@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,6 +23,74 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-342" y="121"/>
+        </scene>
+        <!--Clock View Controller-->
+        <scene sceneID="d9K-C5-ADH">
+            <objects>
+                <viewController id="6iL-qH-QwG" customClass="ClockViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rKP-pF-iop">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ClockFace" translatesAutoresizingMaskIntoConstraints="NO" id="19Z-iX-FvV">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Aoy-Ka-7zq"/>
+                                    <constraint firstAttribute="width" constant="200" id="pLz-cQ-Bfr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HourHand" translatesAutoresizingMaskIntoConstraints="NO" id="BDJ-TW-Q7C">
+                                <rect key="frame" x="178" y="306" width="18" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="3qT-gT-cno"/>
+                                    <constraint firstAttribute="height" constant="55" id="vcl-xa-uBG"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mimuteHand" translatesAutoresizingMaskIntoConstraints="NO" id="Llq-VH-FNM">
+                                <rect key="frame" x="180.5" y="299.5" width="14" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="QZ3-2h-1NK"/>
+                                    <constraint firstAttribute="width" constant="14" id="dIO-PC-kep"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="secondHand" translatesAutoresizingMaskIntoConstraints="NO" id="JKb-nn-fqr">
+                                <rect key="frame" x="184" y="293" width="6" height="81"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="6" id="DvD-cV-iES"/>
+                                    <constraint firstAttribute="height" constant="81" id="hL7-sB-kcq"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BDJ-TW-Q7C" firstAttribute="centerY" secondItem="19Z-iX-FvV" secondAttribute="centerY" id="Dah-1r-KK8"/>
+                            <constraint firstItem="19Z-iX-FvV" firstAttribute="centerX" secondItem="rKP-pF-iop" secondAttribute="centerX" id="K76-a2-KSq"/>
+                            <constraint firstItem="BDJ-TW-Q7C" firstAttribute="centerX" secondItem="19Z-iX-FvV" secondAttribute="centerX" id="bCh-U9-XZt"/>
+                            <constraint firstItem="19Z-iX-FvV" firstAttribute="centerY" secondItem="rKP-pF-iop" secondAttribute="centerY" id="g3J-Bw-ZOy"/>
+                            <constraint firstItem="JKb-nn-fqr" firstAttribute="centerX" secondItem="19Z-iX-FvV" secondAttribute="centerX" id="h06-dy-0ZF"/>
+                            <constraint firstItem="JKb-nn-fqr" firstAttribute="centerY" secondItem="19Z-iX-FvV" secondAttribute="centerY" id="i32-Xa-l2m"/>
+                            <constraint firstItem="Llq-VH-FNM" firstAttribute="centerY" secondItem="19Z-iX-FvV" secondAttribute="centerY" id="kFl-sY-LuH"/>
+                            <constraint firstItem="Llq-VH-FNM" firstAttribute="centerX" secondItem="19Z-iX-FvV" secondAttribute="centerX" id="lsN-yT-Gn2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Pz3-yO-8Gd"/>
+                    </view>
+                    <connections>
+                        <outlet property="ClockImageView" destination="19Z-iX-FvV" id="cMs-cC-mmQ"/>
+                        <outlet property="HourHandImageView" destination="BDJ-TW-Q7C" id="A3Z-L1-IoT"/>
+                        <outlet property="mimuteHandImageView" destination="Llq-VH-FNM" id="9nM-pI-cgo"/>
+                        <outlet property="secondHandImageView" destination="JKb-nn-fqr" id="q4o-7B-liw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DIm-kX-DsM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="295.19999999999999" y="69.715142428785612"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ClockFace" width="1027" height="1026"/>
+        <image name="HourHand" width="119" height="388"/>
+        <image name="mimuteHand" width="85" height="435"/>
+        <image name="secondHand" width="38" height="407"/>
+    </resources>
 </document>
