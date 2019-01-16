@@ -30,7 +30,10 @@ static NSString *cellIdentifier = @"vcCell";
     _tableView.delegate = self;
     _tableView.dataSource = self;
     
-    _vcList = @[@"UseLayerViewController"];
+    _vcList = @[
+                @"UseLayerViewController",
+                @"ContentsViewController",
+                @"DrawViewController"];
 }
 
 
