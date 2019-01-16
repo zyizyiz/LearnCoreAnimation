@@ -2,11 +2,14 @@
 //  AppDelegate.m
 //  LearnCoreAnimation
 //
-//  Created by ios on 2019/1/12.
+//  Created by ios on 2019/1/16.
 //  Copyright © 2019年 KN. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+
+#define ScreenBound [UIScreen mainScreen].bounds
 
 @interface AppDelegate ()
 
@@ -16,7 +19,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:ScreenBound];
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    
+    ViewController *vc = [[ViewController alloc]init];
+    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = nvc;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

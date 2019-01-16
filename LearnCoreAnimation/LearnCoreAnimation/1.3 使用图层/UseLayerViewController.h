@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  UseLayerViewController.h
 //  LearnCoreAnimation
 //
 //  Created by ios on 2019/1/16.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface UseLayerViewController : UIViewController
 
 @end
-
