@@ -36,6 +36,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     static int i = 0;
+    // zPosition属性可以明显改变屏幕上图层的顺序，但不能改变事件传递的顺序
     if (i % 2 == 0) {
         _greenLayer.zPosition = 1.0f;
     }else {

@@ -39,10 +39,21 @@
     if ([self.layerView.layer containsPoint:point]) {
         point = [self.blueLayer convertPoint:point fromLayer:self.layerView.layer];
         if ([self.blueLayer containsPoint:point]) {
-            NSLog(@"Inside Blue Layer");
+            NSLog(@"touchesBegan : Inside Blue Layer");
         }else {
-            NSLog(@"Inside Gray Layer");
+            NSLog(@"touchesBegan : Inside Gray Layer");
         }
+    }
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    CGPoint point = [[touches anyObject]locationInView:self.view];
+    // 判断是否点击在图层内，返回图层本身或者是叶子节点图层，若在图层外，则返回nil
+    CALayer *layer = [self.layerView.layer hitTest:point];
+    if (layer == _blueLayer) {
+        NSLog(@"touchesEnded : Inside Blue Layer");
+    }else if (layer == self.layerView.layer) {
+        NSLog(@"touchesEnded : Inside Gray Layer");
     }
 }
 
