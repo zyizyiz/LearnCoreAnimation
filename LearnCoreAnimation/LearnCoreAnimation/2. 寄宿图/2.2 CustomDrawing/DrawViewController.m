@@ -15,6 +15,9 @@
 @interface DrawViewController ()<CALayerDelegate>
 // layerView
 @property(nonatomic,strong)UIView *layerView;
+
+// 蓝色图层
+@property(nonatomic,strong)CALayer *blueLayer;
 @end
 
 @implementation DrawViewController
@@ -26,14 +29,16 @@
     _layerView.center = self.view.center;
     [_layerView setBackgroundColor:[UIColor grayColor]];
     [self.view addSubview:_layerView];
-    
-    CALayer *blueLayer = [CALayer layer];
-    [blueLayer setFrame:CGRectMake(50, 50, 100, 100)];
-    [blueLayer setBackgroundColor:[UIColor blueColor].CGColor];
-    blueLayer.delegate = self;
-    blueLayer.contentsScale = [UIScreen mainScreen].scale;
-    [self.layerView.layer addSublayer:blueLayer];
-    [blueLayer display];
+
+    _blueLayer = [CALayer layer];
+    [_blueLayer setFrame:CGRectMake(50, 50, 100, 100)];
+    [_blueLayer setBackgroundColor:[UIColor blueColor].CGColor];
+    // [DrawViewController isKindOfClass:]: message sent to deallocated instance
+    // 由于代理有延时方法，造成野指针异常
+    _blueLayer.delegate = self;
+    _blueLayer.contentsScale = [UIScreen mainScreen].scale;
+    [self.layerView.layer addSublayer:_blueLayer];
+    [_blueLayer display];
 }
 
 - (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx {
@@ -42,5 +47,9 @@
     CGContextStrokeEllipseInRect(ctx, layer.bounds);
 }
 
+- (void)dealloc {
+    _blueLayer.delegate = nil;
+    NSLog(@"wwww");
+}
 
 @end

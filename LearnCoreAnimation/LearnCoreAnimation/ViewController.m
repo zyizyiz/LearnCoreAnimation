@@ -45,6 +45,11 @@ static NSString *cellIdentifier = @"vcCell";
                 @"AlphaViewController"];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"eeee");
+}
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
