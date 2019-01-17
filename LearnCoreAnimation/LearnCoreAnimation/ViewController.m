@@ -42,7 +42,8 @@ static NSString *cellIdentifier = @"vcCell";
                 @"ShadowViewController",
                 @"MaskViewController",
                 @"FilterViewController",
-                @"AlphaViewController"];
+                @"AlphaViewController",
+                @"TransformViewController"];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
