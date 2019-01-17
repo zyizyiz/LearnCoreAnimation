@@ -32,6 +32,8 @@
         [layer setContents:(__bridge id)digits.CGImage];
         [layer setContentsRect:CGRectMake(0, 0, 0.1f, 1.0f)];
         [layer setContentsGravity:kCAGravityResizeAspect];
+        // 暂时觉得加不加没区别
+        layer.magnificationFilter = kCAFilterNearest;
         [self.view.layer addSublayer:layer];
         [_digitLayers addObject:layer];
     }
