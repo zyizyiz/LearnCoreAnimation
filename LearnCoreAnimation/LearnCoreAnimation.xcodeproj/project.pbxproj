@@ -24,6 +24,7 @@
 		819C539921F01C4C0094562D /* BorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C539821F01C4C0094562D /* BorderViewController.m */; };
 		819C539D21F01F8A0094562D /* ShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C539C21F01F8A0094562D /* ShadowViewController.m */; };
 		819C53A221F0244C0094562D /* MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53A121F0244C0094562D /* MaskViewController.m */; };
+		819C53A621F028040094562D /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53A521F028040094562D /* FilterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		819C539C21F01F8A0094562D /* ShadowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowViewController.m; sourceTree = "<group>"; };
 		819C53A021F0244C0094562D /* MaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskViewController.h; sourceTree = "<group>"; };
 		819C53A121F0244C0094562D /* MaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskViewController.m; sourceTree = "<group>"; };
+		819C53A421F028040094562D /* FilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		819C53A521F028040094562D /* FilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +264,7 @@
 				819C539621F01C350094562D /* 4.2 图层边框 */,
 				819C539A21F01F6C0094562D /* 4.3 阴影 */,
 				819C539E21F024290094562D /* 4.4 图层蒙版 */,
+				819C53A321F027E20094562D /* 4.5 拉伸过滤 */,
 			);
 			path = "4. 视觉效果";
 			sourceTree = "<group>";
@@ -299,6 +303,15 @@
 				819C53A121F0244C0094562D /* MaskViewController.m */,
 			);
 			path = "4.4 图层蒙版";
+			sourceTree = "<group>";
+		};
+		819C53A321F027E20094562D /* 4.5 拉伸过滤 */ = {
+			isa = PBXGroup;
+			children = (
+				819C53A421F028040094562D /* FilterViewController.h */,
+				819C53A521F028040094562D /* FilterViewController.m */,
+			);
+			path = "4.5 拉伸过滤";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +450,7 @@
 				819C537221EEC8430094562D /* UseLayerViewController.m in Sources */,
 				819C539021F0143E0094562D /* HitTestingViewController.m in Sources */,
 				819C538721EEED860094562D /* AnchorPointViewController.m in Sources */,
+				819C53A621F028040094562D /* FilterViewController.m in Sources */,
 				819C538B21F010AA0094562D /* CoordinateViewController.m in Sources */,
 				819C533F21EEC4990094562D /* ViewController.m in Sources */,
 				819C539D21F01F8A0094562D /* ShadowViewController.m in Sources */,
