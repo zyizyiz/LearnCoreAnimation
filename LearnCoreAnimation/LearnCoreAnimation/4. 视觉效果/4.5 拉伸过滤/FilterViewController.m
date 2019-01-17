@@ -68,6 +68,8 @@
     [layer setContentsRect:CGRectMake(0.1 * digit, 0, 0.1f, 1.0f)];
 }
 
-
+- (void)dealloc {
+    NSLog(@"FilterViewController dealloc");
+}
 
 @end

@@ -25,6 +25,7 @@
 		819C539D21F01F8A0094562D /* ShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C539C21F01F8A0094562D /* ShadowViewController.m */; };
 		819C53A221F0244C0094562D /* MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53A121F0244C0094562D /* MaskViewController.m */; };
 		819C53A621F028040094562D /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53A521F028040094562D /* FilterViewController.m */; };
+		819C53AB21F045D60094562D /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53AA21F045D60094562D /* AlphaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		819C53A121F0244C0094562D /* MaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskViewController.m; sourceTree = "<group>"; };
 		819C53A421F028040094562D /* FilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
 		819C53A521F028040094562D /* FilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		819C53A921F045D60094562D /* AlphaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
+		819C53AA21F045D60094562D /* AlphaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +268,7 @@
 				819C539A21F01F6C0094562D /* 4.3 阴影 */,
 				819C539E21F024290094562D /* 4.4 图层蒙版 */,
 				819C53A321F027E20094562D /* 4.5 拉伸过滤 */,
+				819C53A821F045A00094562D /* 4.6 组透明 */,
 			);
 			path = "4. 视觉效果";
 			sourceTree = "<group>";
@@ -312,6 +316,15 @@
 				819C53A521F028040094562D /* FilterViewController.m */,
 			);
 			path = "4.5 拉伸过滤";
+			sourceTree = "<group>";
+		};
+		819C53A821F045A00094562D /* 4.6 组透明 */ = {
+			isa = PBXGroup;
+			children = (
+				819C53A921F045D60094562D /* AlphaViewController.h */,
+				819C53AA21F045D60094562D /* AlphaViewController.m */,
+			);
+			path = "4.6 组透明";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -459,6 +472,7 @@
 				819C53A221F0244C0094562D /* MaskViewController.m in Sources */,
 				819C534A21EEC4990094562D /* main.m in Sources */,
 				819C539521F019E70094562D /* FilletViewController.m in Sources */,
+				819C53AB21F045D60094562D /* AlphaViewController.m in Sources */,
 				819C533C21EEC4990094562D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -41,7 +41,8 @@ static NSString *cellIdentifier = @"vcCell";
                 @"BorderViewController",
                 @"ShadowViewController",
                 @"MaskViewController",
-                @"FilterViewController"];
+                @"FilterViewController",
+                @"AlphaViewController"];
 }
 
 
