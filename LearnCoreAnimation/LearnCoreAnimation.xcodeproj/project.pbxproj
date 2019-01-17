@@ -19,6 +19,7 @@
 		819C537F21EED8380094562D /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C537E21EED8380094562D /* DrawViewController.m */; };
 		819C538321EEDB4A0094562D /* UIViewAndCALayerFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C538221EEDB4A0094562D /* UIViewAndCALayerFrame.m */; };
 		819C538721EEED860094562D /* AnchorPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C538621EEED860094562D /* AnchorPointViewController.m */; };
+		819C538B21F010AA0094562D /* CoordinateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C538A21F010AA0094562D /* CoordinateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		819C538221EEDB4A0094562D /* UIViewAndCALayerFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewAndCALayerFrame.m; sourceTree = "<group>"; };
 		819C538521EEED860094562D /* AnchorPointViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnchorPointViewController.h; sourceTree = "<group>"; };
 		819C538621EEED860094562D /* AnchorPointViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnchorPointViewController.m; sourceTree = "<group>"; };
+		819C538921F010AA0094562D /* CoordinateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoordinateViewController.h; sourceTree = "<group>"; };
+		819C538A21F010AA0094562D /* CoordinateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoordinateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +198,7 @@
 			children = (
 				819C538121EEDB140094562D /* 3.1 布局 */,
 				819C538421EEED590094562D /* 3.2 锚点 */,
+				819C538821F010780094562D /* 3.3 坐标系 */,
 			);
 			path = "3. 图层几何学";
 			sourceTree = "<group>";
@@ -214,6 +218,15 @@
 				819C538621EEED860094562D /* AnchorPointViewController.m */,
 			);
 			path = "3.2 锚点";
+			sourceTree = "<group>";
+		};
+		819C538821F010780094562D /* 3.3 坐标系 */ = {
+			isa = PBXGroup;
+			children = (
+				819C538921F010AA0094562D /* CoordinateViewController.h */,
+				819C538A21F010AA0094562D /* CoordinateViewController.m */,
+			);
+			path = "3.3 坐标系";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +364,7 @@
 				819C537F21EED8380094562D /* DrawViewController.m in Sources */,
 				819C537221EEC8430094562D /* UseLayerViewController.m in Sources */,
 				819C538721EEED860094562D /* AnchorPointViewController.m in Sources */,
+				819C538B21F010AA0094562D /* CoordinateViewController.m in Sources */,
 				819C533F21EEC4990094562D /* ViewController.m in Sources */,
 				819C537B21EED00C0094562D /* ContentsViewController.m in Sources */,
 				819C538321EEDB4A0094562D /* UIViewAndCALayerFrame.m in Sources */,
