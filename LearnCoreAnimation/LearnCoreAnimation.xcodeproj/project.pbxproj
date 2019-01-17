@@ -17,9 +17,9 @@
 		819C537221EEC8430094562D /* UseLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C537121EEC8430094562D /* UseLayerViewController.m */; };
 		819C537B21EED00C0094562D /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C537A21EED00C0094562D /* ContentsViewController.m */; };
 		819C537F21EED8380094562D /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C537E21EED8380094562D /* DrawViewController.m */; };
-		819C538321EEDB4A0094562D /* UIViewAndCALayerFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C538221EEDB4A0094562D /* UIViewAndCALayerFrame.m */; };
 		819C538721EEED860094562D /* AnchorPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C538621EEED860094562D /* AnchorPointViewController.m */; };
 		819C538B21F010AA0094562D /* CoordinateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C538A21F010AA0094562D /* CoordinateViewController.m */; };
+		819C539021F0143E0094562D /* HitTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C538F21F0143E0094562D /* HitTestingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +66,8 @@
 		819C538621EEED860094562D /* AnchorPointViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnchorPointViewController.m; sourceTree = "<group>"; };
 		819C538921F010AA0094562D /* CoordinateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoordinateViewController.h; sourceTree = "<group>"; };
 		819C538A21F010AA0094562D /* CoordinateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoordinateViewController.m; sourceTree = "<group>"; };
+		819C538E21F0143E0094562D /* HitTestingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestingViewController.h; sourceTree = "<group>"; };
+		819C538F21F0143E0094562D /* HitTestingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				819C538121EEDB140094562D /* 3.1 布局 */,
 				819C538421EEED590094562D /* 3.2 锚点 */,
 				819C538821F010780094562D /* 3.3 坐标系 */,
+				819C538C21F013F10094562D /* 3.4 HitTesting */,
 			);
 			path = "3. 图层几何学";
 			sourceTree = "<group>";
@@ -227,6 +230,15 @@
 				819C538A21F010AA0094562D /* CoordinateViewController.m */,
 			);
 			path = "3.3 坐标系";
+			sourceTree = "<group>";
+		};
+		819C538C21F013F10094562D /* 3.4 HitTesting */ = {
+			isa = PBXGroup;
+			children = (
+				819C538E21F0143E0094562D /* HitTestingViewController.h */,
+				819C538F21F0143E0094562D /* HitTestingViewController.m */,
+			);
+			path = "3.4 HitTesting";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,11 +375,11 @@
 			files = (
 				819C537F21EED8380094562D /* DrawViewController.m in Sources */,
 				819C537221EEC8430094562D /* UseLayerViewController.m in Sources */,
+				819C539021F0143E0094562D /* HitTestingViewController.m in Sources */,
 				819C538721EEED860094562D /* AnchorPointViewController.m in Sources */,
 				819C538B21F010AA0094562D /* CoordinateViewController.m in Sources */,
 				819C533F21EEC4990094562D /* ViewController.m in Sources */,
 				819C537B21EED00C0094562D /* ContentsViewController.m in Sources */,
-				819C538321EEDB4A0094562D /* UIViewAndCALayerFrame.m in Sources */,
 				819C534A21EEC4990094562D /* main.m in Sources */,
 				819C533C21EEC4990094562D /* AppDelegate.m in Sources */,
 			);
