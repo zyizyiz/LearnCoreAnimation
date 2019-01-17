@@ -20,6 +20,7 @@
 		819C538721EEED860094562D /* AnchorPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C538621EEED860094562D /* AnchorPointViewController.m */; };
 		819C538B21F010AA0094562D /* CoordinateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C538A21F010AA0094562D /* CoordinateViewController.m */; };
 		819C539021F0143E0094562D /* HitTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C538F21F0143E0094562D /* HitTestingViewController.m */; };
+		819C539521F019E70094562D /* FilletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C539421F019E70094562D /* FilletViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		819C538A21F010AA0094562D /* CoordinateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoordinateViewController.m; sourceTree = "<group>"; };
 		819C538E21F0143E0094562D /* HitTestingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestingViewController.h; sourceTree = "<group>"; };
 		819C538F21F0143E0094562D /* HitTestingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestingViewController.m; sourceTree = "<group>"; };
+		819C539321F019E70094562D /* FilletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilletViewController.h; sourceTree = "<group>"; };
+		819C539421F019E70094562D /* FilletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilletViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,7 @@
 				819C537721EECFDA0094562D /* 1. 图层树 */,
 				819C537621EECFBC0094562D /* 2. 寄宿图 */,
 				819C538021EEDA460094562D /* 3. 图层几何学 */,
+				819C539121F019A70094562D /* 4. 视觉效果 */,
 				819C533A21EEC4990094562D /* AppDelegate.h */,
 				819C533B21EEC4990094562D /* AppDelegate.m */,
 				819C533D21EEC4990094562D /* ViewController.h */,
@@ -239,6 +243,23 @@
 				819C538F21F0143E0094562D /* HitTestingViewController.m */,
 			);
 			path = "3.4 HitTesting";
+			sourceTree = "<group>";
+		};
+		819C539121F019A70094562D /* 4. 视觉效果 */ = {
+			isa = PBXGroup;
+			children = (
+				819C539221F019BB0094562D /* 4.1 圆角 */,
+			);
+			path = "4. 视觉效果";
+			sourceTree = "<group>";
+		};
+		819C539221F019BB0094562D /* 4.1 圆角 */ = {
+			isa = PBXGroup;
+			children = (
+				819C539321F019E70094562D /* FilletViewController.h */,
+				819C539421F019E70094562D /* FilletViewController.m */,
+			);
+			path = "4.1 圆角";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,6 +402,7 @@
 				819C533F21EEC4990094562D /* ViewController.m in Sources */,
 				819C537B21EED00C0094562D /* ContentsViewController.m in Sources */,
 				819C534A21EEC4990094562D /* main.m in Sources */,
+				819C539521F019E70094562D /* FilletViewController.m in Sources */,
 				819C533C21EEC4990094562D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
