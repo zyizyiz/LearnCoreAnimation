@@ -22,6 +22,7 @@
 		819C539021F0143E0094562D /* HitTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C538F21F0143E0094562D /* HitTestingViewController.m */; };
 		819C539521F019E70094562D /* FilletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C539421F019E70094562D /* FilletViewController.m */; };
 		819C539921F01C4C0094562D /* BorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C539821F01C4C0094562D /* BorderViewController.m */; };
+		819C539D21F01F8A0094562D /* ShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C539C21F01F8A0094562D /* ShadowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 		819C539421F019E70094562D /* FilletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilletViewController.m; sourceTree = "<group>"; };
 		819C539721F01C4C0094562D /* BorderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorderViewController.h; sourceTree = "<group>"; };
 		819C539821F01C4C0094562D /* BorderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorderViewController.m; sourceTree = "<group>"; };
+		819C539B21F01F8A0094562D /* ShadowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadowViewController.h; sourceTree = "<group>"; };
+		819C539C21F01F8A0094562D /* ShadowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +256,7 @@
 			children = (
 				819C539221F019BB0094562D /* 4.1 圆角 */,
 				819C539621F01C350094562D /* 4.2 图层边框 */,
+				819C539A21F01F6C0094562D /* 4.3 阴影 */,
 			);
 			path = "4. 视觉效果";
 			sourceTree = "<group>";
@@ -273,6 +277,15 @@
 				819C539821F01C4C0094562D /* BorderViewController.m */,
 			);
 			path = "4.2 图层边框";
+			sourceTree = "<group>";
+		};
+		819C539A21F01F6C0094562D /* 4.3 阴影 */ = {
+			isa = PBXGroup;
+			children = (
+				819C539B21F01F8A0094562D /* ShadowViewController.h */,
+				819C539C21F01F8A0094562D /* ShadowViewController.m */,
+			);
+			path = "4.3 阴影";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,6 +426,7 @@
 				819C538721EEED860094562D /* AnchorPointViewController.m in Sources */,
 				819C538B21F010AA0094562D /* CoordinateViewController.m in Sources */,
 				819C533F21EEC4990094562D /* ViewController.m in Sources */,
+				819C539D21F01F8A0094562D /* ShadowViewController.m in Sources */,
 				819C537B21EED00C0094562D /* ContentsViewController.m in Sources */,
 				819C539921F01C4C0094562D /* BorderViewController.m in Sources */,
 				819C534A21EEC4990094562D /* main.m in Sources */,

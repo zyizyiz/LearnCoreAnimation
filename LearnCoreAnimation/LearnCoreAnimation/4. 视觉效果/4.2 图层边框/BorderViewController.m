@@ -6,6 +6,9 @@
 //  Copyright © 2019年 KN. All rights reserved.
 //
 
+/*
+ 边框是跟随图层的边界变化的，而不是图层里面的内容
+ */
 #import "BorderViewController.h"
 
 @interface BorderViewController ()
