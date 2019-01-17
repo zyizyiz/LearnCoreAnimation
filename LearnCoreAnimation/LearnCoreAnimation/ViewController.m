@@ -37,7 +37,8 @@ static NSString *cellIdentifier = @"vcCell";
                 @"AnchorPointViewController",
                 @"CoordinateViewController",
                 @"HitTestingViewController",
-                @"FilletViewController"];
+                @"FilletViewController",
+                @"BorderViewController"];
 }
 
 
