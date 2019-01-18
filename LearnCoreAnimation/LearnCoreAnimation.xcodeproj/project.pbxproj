@@ -27,6 +27,8 @@
 		819C53A621F028040094562D /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53A521F028040094562D /* FilterViewController.m */; };
 		819C53AB21F045D60094562D /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53AA21F045D60094562D /* AlphaViewController.m */; };
 		819C53B121F052980094562D /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53B021F052980094562D /* TransformViewController.m */; };
+		819C53B521F057270094562D /* Transform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53B421F057270094562D /* Transform3DViewController.m */; };
+		819C53B921F059D30094562D /* SublayerTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53B821F059D30094562D /* SublayerTransformViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,10 @@
 		819C53AA21F045D60094562D /* AlphaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
 		819C53AF21F052980094562D /* TransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
 		819C53B021F052980094562D /* TransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
+		819C53B321F057270094562D /* Transform3DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transform3DViewController.h; sourceTree = "<group>"; };
+		819C53B421F057270094562D /* Transform3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transform3DViewController.m; sourceTree = "<group>"; };
+		819C53B721F059D30094562D /* SublayerTransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SublayerTransformViewController.h; sourceTree = "<group>"; };
+		819C53B821F059D30094562D /* SublayerTransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SublayerTransformViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,6 +341,7 @@
 			isa = PBXGroup;
 			children = (
 				819C53AD21F052640094562D /* 5.1 仿射变换 */,
+				819C53B221F056F00094562D /* 5.2 3D变换 */,
 			);
 			path = "5. 变换";
 			sourceTree = "<group>";
@@ -346,6 +353,17 @@
 				819C53B021F052980094562D /* TransformViewController.m */,
 			);
 			path = "5.1 仿射变换";
+			sourceTree = "<group>";
+		};
+		819C53B221F056F00094562D /* 5.2 3D变换 */ = {
+			isa = PBXGroup;
+			children = (
+				819C53B321F057270094562D /* Transform3DViewController.h */,
+				819C53B421F057270094562D /* Transform3DViewController.m */,
+				819C53B721F059D30094562D /* SublayerTransformViewController.h */,
+				819C53B821F059D30094562D /* SublayerTransformViewController.m */,
+			);
+			path = "5.2 3D变换";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,6 +504,7 @@
 				819C538721EEED860094562D /* AnchorPointViewController.m in Sources */,
 				819C53A621F028040094562D /* FilterViewController.m in Sources */,
 				819C538B21F010AA0094562D /* CoordinateViewController.m in Sources */,
+				819C53B921F059D30094562D /* SublayerTransformViewController.m in Sources */,
 				819C533F21EEC4990094562D /* ViewController.m in Sources */,
 				819C539D21F01F8A0094562D /* ShadowViewController.m in Sources */,
 				819C537B21EED00C0094562D /* ContentsViewController.m in Sources */,
@@ -495,6 +514,7 @@
 				819C539521F019E70094562D /* FilletViewController.m in Sources */,
 				819C53AB21F045D60094562D /* AlphaViewController.m in Sources */,
 				819C533C21EEC4990094562D /* AppDelegate.m in Sources */,
+				819C53B521F057270094562D /* Transform3DViewController.m in Sources */,
 				819C53B121F052980094562D /* TransformViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
