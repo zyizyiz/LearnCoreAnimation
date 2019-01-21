@@ -29,6 +29,7 @@
 		819C53B121F052980094562D /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53B021F052980094562D /* TransformViewController.m */; };
 		819C53B521F057270094562D /* Transform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53B421F057270094562D /* Transform3DViewController.m */; };
 		819C53B921F059D30094562D /* SublayerTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53B821F059D30094562D /* SublayerTransformViewController.m */; };
+		81C8065021F5639D00F2ABD0 /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8064F21F5639D00F2ABD0 /* RotateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,8 @@
 		819C53B421F057270094562D /* Transform3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transform3DViewController.m; sourceTree = "<group>"; };
 		819C53B721F059D30094562D /* SublayerTransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SublayerTransformViewController.h; sourceTree = "<group>"; };
 		819C53B821F059D30094562D /* SublayerTransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SublayerTransformViewController.m; sourceTree = "<group>"; };
+		81C8064E21F5639D00F2ABD0 /* RotateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateViewController.h; sourceTree = "<group>"; };
+		81C8064F21F5639D00F2ABD0 /* RotateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -362,6 +365,8 @@
 				819C53B421F057270094562D /* Transform3DViewController.m */,
 				819C53B721F059D30094562D /* SublayerTransformViewController.h */,
 				819C53B821F059D30094562D /* SublayerTransformViewController.m */,
+				81C8064E21F5639D00F2ABD0 /* RotateViewController.h */,
+				81C8064F21F5639D00F2ABD0 /* RotateViewController.m */,
 			);
 			path = "5.2 3D变换";
 			sourceTree = "<group>";
@@ -506,6 +511,7 @@
 				819C538B21F010AA0094562D /* CoordinateViewController.m in Sources */,
 				819C53B921F059D30094562D /* SublayerTransformViewController.m in Sources */,
 				819C533F21EEC4990094562D /* ViewController.m in Sources */,
+				81C8065021F5639D00F2ABD0 /* RotateViewController.m in Sources */,
 				819C539D21F01F8A0094562D /* ShadowViewController.m in Sources */,
 				819C537B21EED00C0094562D /* ContentsViewController.m in Sources */,
 				819C539921F01C4C0094562D /* BorderViewController.m in Sources */,

@@ -45,6 +45,10 @@
     CATransform3D perspective = CATransform3DIdentity;
     perspective.m34 = -1.0 / 500.0;
     [_layerView.layer setSublayerTransform:perspective];
+    
+    // 图层是双面绘制的，反面显示的是正面的一个镜像图片
+    _leftLayer.doubleSided = false;
+    _rightLayer.doubleSided = false;
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

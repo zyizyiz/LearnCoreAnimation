@@ -45,7 +45,8 @@ static NSString *cellIdentifier = @"vcCell";
                 @"AlphaViewController",
                 @"TransformViewController",
                 @"Transform3DViewController",
-                @"SublayerTransformViewController"];
+                @"SublayerTransformViewController",
+                @"RotateViewController"];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
