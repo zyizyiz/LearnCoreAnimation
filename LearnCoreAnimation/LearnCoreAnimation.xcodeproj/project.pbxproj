@@ -32,6 +32,8 @@
 		81C8065021F5639D00F2ABD0 /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8064F21F5639D00F2ABD0 /* RotateViewController.m */; };
 		81C8065421F567B100F2ABD0 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8065321F567B100F2ABD0 /* ContainerViewController.m */; };
 		81C8065921F57F8900F2ABD0 /* ShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8065821F57F8900F2ABD0 /* ShapeLayerViewController.m */; };
+		81C8065E21F5A0DF00F2ABD0 /* CATextLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8065D21F5A0DF00F2ABD0 /* CATextLayerViewController.m */; };
+		81C8066121F5A70500F2ABD0 /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8066021F5A70500F2ABD0 /* LayerLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,10 @@
 		81C8065321F567B100F2ABD0 /* ContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
 		81C8065721F57F8900F2ABD0 /* ShapeLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeLayerViewController.h; sourceTree = "<group>"; };
 		81C8065821F57F8900F2ABD0 /* ShapeLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeLayerViewController.m; sourceTree = "<group>"; };
+		81C8065C21F5A0DF00F2ABD0 /* CATextLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATextLayerViewController.h; sourceTree = "<group>"; };
+		81C8065D21F5A0DF00F2ABD0 /* CATextLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATextLayerViewController.m; sourceTree = "<group>"; };
+		81C8065F21F5A70500F2ABD0 /* LayerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayerLabel.h; sourceTree = "<group>"; };
+		81C8066021F5A70500F2ABD0 /* LayerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -392,6 +398,7 @@
 			isa = PBXGroup;
 			children = (
 				81C8065621F57F6D00F2ABD0 /* 6.1 CAShapeLayer */,
+				81C8065A21F5A0B200F2ABD0 /* 6.2 CATextLayer */,
 			);
 			path = "6. 专用图层";
 			sourceTree = "<group>";
@@ -403,6 +410,17 @@
 				81C8065821F57F8900F2ABD0 /* ShapeLayerViewController.m */,
 			);
 			path = "6.1 CAShapeLayer";
+			sourceTree = "<group>";
+		};
+		81C8065A21F5A0B200F2ABD0 /* 6.2 CATextLayer */ = {
+			isa = PBXGroup;
+			children = (
+				81C8065C21F5A0DF00F2ABD0 /* CATextLayerViewController.h */,
+				81C8065D21F5A0DF00F2ABD0 /* CATextLayerViewController.m */,
+				81C8065F21F5A70500F2ABD0 /* LayerLabel.h */,
+				81C8066021F5A70500F2ABD0 /* LayerLabel.m */,
+			);
+			path = "6.2 CATextLayer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -550,8 +568,10 @@
 				819C537B21EED00C0094562D /* ContentsViewController.m in Sources */,
 				819C539921F01C4C0094562D /* BorderViewController.m in Sources */,
 				819C53A221F0244C0094562D /* MaskViewController.m in Sources */,
+				81C8065E21F5A0DF00F2ABD0 /* CATextLayerViewController.m in Sources */,
 				81C8065921F57F8900F2ABD0 /* ShapeLayerViewController.m in Sources */,
 				819C534A21EEC4990094562D /* main.m in Sources */,
+				81C8066121F5A70500F2ABD0 /* LayerLabel.m in Sources */,
 				81C8065421F567B100F2ABD0 /* ContainerViewController.m in Sources */,
 				819C539521F019E70094562D /* FilletViewController.m in Sources */,
 				819C53AB21F045D60094562D /* AlphaViewController.m in Sources */,
