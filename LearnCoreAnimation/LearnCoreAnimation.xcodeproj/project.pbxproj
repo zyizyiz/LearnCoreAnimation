@@ -30,6 +30,7 @@
 		819C53B521F057270094562D /* Transform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53B421F057270094562D /* Transform3DViewController.m */; };
 		819C53B921F059D30094562D /* SublayerTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53B821F059D30094562D /* SublayerTransformViewController.m */; };
 		81C8065021F5639D00F2ABD0 /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8064F21F5639D00F2ABD0 /* RotateViewController.m */; };
+		81C8065421F567B100F2ABD0 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8065321F567B100F2ABD0 /* ContainerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		819C53B821F059D30094562D /* SublayerTransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SublayerTransformViewController.m; sourceTree = "<group>"; };
 		81C8064E21F5639D00F2ABD0 /* RotateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateViewController.h; sourceTree = "<group>"; };
 		81C8064F21F5639D00F2ABD0 /* RotateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateViewController.m; sourceTree = "<group>"; };
+		81C8065221F567B100F2ABD0 /* ContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		81C8065321F567B100F2ABD0 /* ContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,6 +348,7 @@
 			children = (
 				819C53AD21F052640094562D /* 5.1 仿射变换 */,
 				819C53B221F056F00094562D /* 5.2 3D变换 */,
+				81C8065121F5679600F2ABD0 /* 5.3 固体对象 */,
 			);
 			path = "5. 变换";
 			sourceTree = "<group>";
@@ -369,6 +373,15 @@
 				81C8064F21F5639D00F2ABD0 /* RotateViewController.m */,
 			);
 			path = "5.2 3D变换";
+			sourceTree = "<group>";
+		};
+		81C8065121F5679600F2ABD0 /* 5.3 固体对象 */ = {
+			isa = PBXGroup;
+			children = (
+				81C8065221F567B100F2ABD0 /* ContainerViewController.h */,
+				81C8065321F567B100F2ABD0 /* ContainerViewController.m */,
+			);
+			path = "5.3 固体对象";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -517,6 +530,7 @@
 				819C539921F01C4C0094562D /* BorderViewController.m in Sources */,
 				819C53A221F0244C0094562D /* MaskViewController.m in Sources */,
 				819C534A21EEC4990094562D /* main.m in Sources */,
+				81C8065421F567B100F2ABD0 /* ContainerViewController.m in Sources */,
 				819C539521F019E70094562D /* FilletViewController.m in Sources */,
 				819C53AB21F045D60094562D /* AlphaViewController.m in Sources */,
 				819C533C21EEC4990094562D /* AppDelegate.m in Sources */,
