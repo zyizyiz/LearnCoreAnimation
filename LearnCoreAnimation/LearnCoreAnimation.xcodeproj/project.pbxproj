@@ -31,6 +31,7 @@
 		819C53B921F059D30094562D /* SublayerTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819C53B821F059D30094562D /* SublayerTransformViewController.m */; };
 		81C8065021F5639D00F2ABD0 /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8064F21F5639D00F2ABD0 /* RotateViewController.m */; };
 		81C8065421F567B100F2ABD0 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8065321F567B100F2ABD0 /* ContainerViewController.m */; };
+		81C8065921F57F8900F2ABD0 /* ShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8065821F57F8900F2ABD0 /* ShapeLayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,8 @@
 		81C8064F21F5639D00F2ABD0 /* RotateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateViewController.m; sourceTree = "<group>"; };
 		81C8065221F567B100F2ABD0 /* ContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
 		81C8065321F567B100F2ABD0 /* ContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		81C8065721F57F8900F2ABD0 /* ShapeLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeLayerViewController.h; sourceTree = "<group>"; };
+		81C8065821F57F8900F2ABD0 /* ShapeLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,7 @@
 				819C538021EEDA460094562D /* 3. 图层几何学 */,
 				819C539121F019A70094562D /* 4. 视觉效果 */,
 				819C53AC21F052550094562D /* 5. 变换 */,
+				81C8065521F57F4700F2ABD0 /* 6. 专用图层 */,
 				819C533A21EEC4990094562D /* AppDelegate.h */,
 				819C533B21EEC4990094562D /* AppDelegate.m */,
 				819C533D21EEC4990094562D /* ViewController.h */,
@@ -384,6 +388,23 @@
 			path = "5.3 固体对象";
 			sourceTree = "<group>";
 		};
+		81C8065521F57F4700F2ABD0 /* 6. 专用图层 */ = {
+			isa = PBXGroup;
+			children = (
+				81C8065621F57F6D00F2ABD0 /* 6.1 CAShapeLayer */,
+			);
+			path = "6. 专用图层";
+			sourceTree = "<group>";
+		};
+		81C8065621F57F6D00F2ABD0 /* 6.1 CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				81C8065721F57F8900F2ABD0 /* ShapeLayerViewController.h */,
+				81C8065821F57F8900F2ABD0 /* ShapeLayerViewController.m */,
+			);
+			path = "6.1 CAShapeLayer";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -529,6 +550,7 @@
 				819C537B21EED00C0094562D /* ContentsViewController.m in Sources */,
 				819C539921F01C4C0094562D /* BorderViewController.m in Sources */,
 				819C53A221F0244C0094562D /* MaskViewController.m in Sources */,
+				81C8065921F57F8900F2ABD0 /* ShapeLayerViewController.m in Sources */,
 				819C534A21EEC4990094562D /* main.m in Sources */,
 				81C8065421F567B100F2ABD0 /* ContainerViewController.m in Sources */,
 				819C539521F019E70094562D /* FilletViewController.m in Sources */,
